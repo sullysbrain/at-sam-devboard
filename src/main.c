@@ -1,8 +1,8 @@
-#include "sam.h"
+#include <Arduino.h>
 
 #define LED_PIN PIN_PA17
 
-void delay(uint32_t delay);
+void custom_delay(uint32_t delay);
 
 int main(void) {
     /* Initialize the SAM system */
@@ -20,11 +20,11 @@ int main(void) {
         PORT->Group[0].OUTTGL.reg = (1 << LED_PIN);
       
         /* Delay to make the LED blinking visible */
-        delay(1000000);
+        custom_delay(1000);
     }
 }
 
-void delay(uint32_t delay) {
+void custom_delay(uint32_t delay) {
     while(delay > 0) {
         delay--;
     }
