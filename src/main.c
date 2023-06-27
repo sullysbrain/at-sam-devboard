@@ -6,7 +6,11 @@
 #define STEP_SIZE 5
 #define PI 3.14159265
 
+
+// Internal Math functions
+int double_int(int input);
 void delay_ms(uint32_t ms);
+
 
 int main(void)
 {
@@ -34,13 +38,21 @@ int main(void)
             REG_PORT_OUTSET0 = (1 << LED_PIN);
             delay_ms(MAX_BRIGHTNESS - brightness);
         }
+
     }
 
     return 0;
 }
+
+// Math functions
 
 void delay_ms(uint32_t ms) {
     for (uint32_t delay = ms * 4; delay > 0; delay--) {
         __asm__ volatile ("nop");
     }
 }
+
+int double_int(int input) {
+    return input * 2;
+}
+
