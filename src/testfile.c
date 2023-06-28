@@ -2,8 +2,7 @@
 
 int main(void) {
 
-    char str[] = "Hello world";
-
+    char str[] = "Hello test";
     printf("%s\n", str); 
 
     return 0;
