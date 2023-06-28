@@ -23,6 +23,9 @@
             "group": {
                 "kind": "build",
                 "isDefault": true
+            },
+            "options": {
+                "pty": true
             }
         }
 	]
