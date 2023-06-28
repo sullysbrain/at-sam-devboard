@@ -1,0 +1,74 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/scott.sullivan/Documents/myCoding/at-sam-devboard/include",
+                "/Users/scott.sullivan/Documents/myCoding/at-sam-devboard/src",
+                "/Users/scott.sullivan/.platformio/packages/framework-cmsis/CMSIS/Include",
+                "/Users/scott.sullivan/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
+                "/Users/scott.sullivan/.platformio/packages/framework-arduino-samd-sparkfun/cores/arduino",
+                "/Users/scott.sullivan/.platformio/packages/framework-arduino-samd-sparkfun/variants/SparkFun_SAMD_Mini",
+                "/Users/scott.sullivan/Documents/myCoding/at-sam-devboard/.pio/libdeps/sparkfun_samd21_mini_usb/Unity/src",
+                "/Users/scott.sullivan/.platformio/packages/framework-arduino-samd-sparkfun/libraries/HID",
+                "/Users/scott.sullivan/.platformio/packages/framework-arduino-samd-sparkfun/libraries/I2S/src",
+                "/Users/scott.sullivan/.platformio/packages/framework-arduino-samd-sparkfun/libraries/LilyMini_Guide/src",
+                "/Users/scott.sullivan/.platformio/packages/framework-arduino-samd-sparkfun/libraries/SAMD_AnalogCorrection/src",
+                "/Users/scott.sullivan/.platformio/packages/framework-arduino-samd-sparkfun/libraries/SDU/src",
+                "/Users/scott.sullivan/.platformio/packages/framework-arduino-samd-sparkfun/libraries/SPI",
+                "/Users/scott.sullivan/.platformio/packages/framework-arduino-samd-sparkfun/libraries/USBHost/src",
+                "/Users/scott.sullivan/.platformio/packages/framework-arduino-samd-sparkfun/libraries/Wire",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/scott.sullivan/Documents/myCoding/at-sam-devboard/include",
+                    "/Users/scott.sullivan/Documents/myCoding/at-sam-devboard/src",
+                    "/Users/scott.sullivan/.platformio/packages/framework-cmsis/CMSIS/Include",
+                    "/Users/scott.sullivan/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
+                    "/Users/scott.sullivan/.platformio/packages/framework-arduino-samd-sparkfun/cores/arduino",
+                    "/Users/scott.sullivan/.platformio/packages/framework-arduino-samd-sparkfun/variants/SparkFun_SAMD_Mini",
+                    "/Users/scott.sullivan/Documents/myCoding/at-sam-devboard/.pio/libdeps/sparkfun_samd21_mini_usb/Unity/src",
+                    "/Users/scott.sullivan/.platformio/packages/framework-arduino-samd-sparkfun/libraries/HID",
+                    "/Users/scott.sullivan/.platformio/packages/framework-arduino-samd-sparkfun/libraries/I2S/src",
+                    "/Users/scott.sullivan/.platformio/packages/framework-arduino-samd-sparkfun/libraries/LilyMini_Guide/src",
+                    "/Users/scott.sullivan/.platformio/packages/framework-arduino-samd-sparkfun/libraries/SAMD_AnalogCorrection/src",
+                    "/Users/scott.sullivan/.platformio/packages/framework-arduino-samd-sparkfun/libraries/SDU/src",
+                    "/Users/scott.sullivan/.platformio/packages/framework-arduino-samd-sparkfun/libraries/SPI",
+                    "/Users/scott.sullivan/.platformio/packages/framework-arduino-samd-sparkfun/libraries/USBHost/src",
+                    "/Users/scott.sullivan/.platformio/packages/framework-arduino-samd-sparkfun/libraries/Wire",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60107",
+                "ARDUINO_SAMD_ZERO",
+                "__SAMD21G18A__",
+                "ARDUINO=10805",
+                "F_CPU=48000000L",
+                "USBCON",
+                "USB_VID=0x1B4F",
+                "USB_PID=0x8D21",
+                "USB_PRODUCT=\"SparkFun SAMD21\"",
+                "USB_MANUFACTURER=\"SparkFun\"",
+                "ARDUINO_ARCH_SAMD",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/Users/scott.sullivan/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m0plus",
+                "-mthumb",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
