@@ -6,6 +6,9 @@
 #define STEP_SIZE 5
 #define PI 3.14159265
 
+// external variables
+extern int my_public_int;
+
 
 // Internal Math functions
 int double_int(int input);
