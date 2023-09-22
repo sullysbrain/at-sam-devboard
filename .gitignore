@@ -1,4 +1,6 @@
 .pio
 .vscode/.browse.c_cpp.db*
 .vscode/ipch
+_private
+
 .DS_Store
