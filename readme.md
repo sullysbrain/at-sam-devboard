@@ -5,7 +5,7 @@ Tutorial for sending I2C data from the ARM based MCU, the AT-SAMD21-G18A-F, from
 
 ## TODO
 PWM signal based on input values, send as uint16_t value for duty cycle.
-
+I2C signal sent via array with address and data
 
 
 ## Troubleshooting
